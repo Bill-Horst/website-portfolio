@@ -25,40 +25,52 @@
     </nav>
   </header>
 
-  <h1>Contact</h1>
+  <h1 id="contact-header">Contact</h1>
 
-  <div>
-    CareerFoundry GmbH<br>
-    Köpenicker Str. 126 <br>
-    10179 Berlin<br>
-    Deutschland<br>
-    <br>
-    Tel <a href="tel:7191234567">719-123-4567</a><br>
-    Skype <a href="skype:hello.billy"> hello.billy</a><br>
-    <a href="mailto:bill@billhorst.com">bill@billhorst.com</a>
-  </div>
+  <section class="contact-section">
 
-  <form action="" method="post">
-    <label for="contact-email">E-mail: </label>
-    <input type="email" id="contact-email" required>
+    <div>
+      CareerFoundry GmbH<br>
+      Köpenicker Str. 126 <br>
+      10179 Berlin<br>
+      Deutschland<br>
+      <br>
+      Tel <a href="tel:7191234567">719-123-4567</a><br>
+      Skype <a href="skype:hello.billy"> hello.billy</a><br>
+      <a href="mailto:bill@billhorst.com">bill@billhorst.com</a>
+    </div>
 
-    <label for="contact-phone">Telephone: </label>
-    <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+    <br />
 
-    <label for="user-message">Message: </label>
-    <textarea maxlength="240" id="user-message" required></textarea>
+    <form action="" method="post">
+      <label for="contact-email">E-mail: </label>
+      <br />
+      <input type="email" id="contact-email" required>
+      <br />
+      <label for="contact-phone">Telephone: </label>
+      <br />
+      <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <br />
+      <label for="user-message">Message: </label>
+      <br />
+      <textarea maxlength="240" id="user-message" required></textarea>
+      <br />
 
-    <input type="submit" value="Send message">
-  </form>
+      <input type="submit" value="Send message">
+    </form>
 
-  <a href="mailto:bill@billhorst.com">Contact me</a>
+    <br />
 
-  <footer>
+    <a href="mailto:bill@billhorst.com">Contact me</a>
+
+  </section>
+
+  <footer class="footer__flex">
     <div class="clear footer__container">
       <p class="footer__item">Find me on</p>
-      <img src="http://via.placeholder.com/30x30" class="footer__item" alt="Github">
-      <img src="http://via.placeholder.com/30x30" class="footer__item" alt="Twitter">
-      <img src="http://via.placeholder.com/30x30" class="footer__item" alt="LinkedIn">
+      <a href="https://github.com/Bill-Horst"><img src="img/github.svg" class="footer__item" alt="Github"></a>
+      <a href="https://billhorst.com"><img src="img/favicon.ico" class="footer__item" alt="Portfolio"></a>
+      <a href="https://www.linkedin.com/in/horstbill"><img src="img/linkedin.png" class="footer__item" alt="LinkedIn"></a>
     </div>
   </footer>
 
